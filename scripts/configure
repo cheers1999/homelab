@@ -90,9 +90,6 @@ def main() -> None:
             ]
         )
 
-    subprocess.run(
-        [editor, 'metal/inventories/prod.yml']
-    )
 
 
 if __name__ == '__main__':
