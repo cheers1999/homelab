@@ -8,9 +8,9 @@ default: boot cluster
 	ssh-keygen -t ed25519 -f "$@"
 
 boot: ~/.ssh/id_ed25519
-	ansible-playbook \
-		--inventory inventories/${env}.yml \
-		boot.yml
+#	ansible-playbook \
+#		--inventory inventories/${env}.yml \
+#		boot.yml
 
 cluster:
 	ansible-playbook \
