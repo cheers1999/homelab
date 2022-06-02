@@ -5,12 +5,12 @@
       length: 32
       special: true
 # TODO create tokens and put to Vault automatically
-# - gitea/renovate:
-#   - id
-#   - token
-# - gitea/dex:
-#   - client_id
-#   - client_secret
+ - gitea/renovate:
+   - id
+   - token
+ - gitea/dex:
+   - client_id
+   - client_secret
 # TODO import to vault?
 # - metal/ssh:
 #   - private_key  # needs ending new line https://github.com/ansible/awx/issues/9082
